@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Web App</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+
+<body>
+    <!-- Start Quiz Button -->
+    <div class="qwa-start">
+        <button class="qwa-start__button">Start Quiz</button>
+    </div>
+
+    <!-- Rules Container -->
+    <div class="qwa-rules">
+        <div class="qwa-rules__title"><span>Some Rules of this Quiz</span></div>
+        <div class="qwa-rules__items">
+            <div class="qwa-rules__item">1. You will have only <span>15 seconds</span> per each question.</div>
+            <div class="qwa-rules__item">2. Once you select your answer, it can't be undone.</div>
+            <div class="qwa-rules__item">3. You can't select any option once time goes off.</div>
+            <div class="qwa-rules__item">4. You can't exit from the Quiz while you're playing.</div>
+            <div class="qwa-rules__item">5. You'll get points on the basis of your correct answers.</div>
+        </div>
+        <div class="qwa-rules__buttons">
+            <button class="qwa-rules__button qwa-rules__button--quit">Exit Quiz</button>
+            <button class="qwa-rules__button qwa-rules__button--continue">Continue</button>
+        </div>
+    </div>
+
+    <!-- Choose Category -->
+    <div class="qwa-categories">
+        <button class="qwa-categories__item" onclick="choseCategory('celeb')">Celebrities</button>
+        <button class="qwa-categories__item" onclick="choseCategory('sport')">Sport</button>
+        <button class="qwa-categories__item" onclick="choseCategory('art')">Art</button>
+    </div>
+
+    <!-- Choose Difficulty -->
+    <div class="qwa-difficulty">
+        <button class="qwa-difficulty__item" onclick="choseDifficulty(1)">Easy</button>
+        <button class="qwa-difficulty__item" onclick="choseDifficulty(2)">Medium</button>
+        <button class="qwa-difficulty__item" onclick="choseDifficulty(3)">Hard</button>
+    </div>
+
+    <!-- Quiz Container -->
+    <div class="qwa-quiz">
+
+        <header class="qwa-quiz__header">
+            <div class="qwa-quiz__header__title">Quiz  Web Application</div>
+
+            <div class="qwa-quiz__timeline"></div>
+        </header>
+
+        <!-- Content of Quiz -->
+        <section class="qwa-quiz__content">
+            <div class="qwa-quiz__text">
+            </div>
+            <div class="qwa-quiz__options">
+            </div>
+        </section>
+
+        <!-- Footer of Quiz -->
+        <footer class="qwa-quiz__footer">
+            <div class="qwa-quiz__count"></div>
+            <button class="qwa-quiz__button qwa-quiz__button--next">Next Question</button>
+        </footer>
+    </div>
+
+    <!-- Result Container -->
+    <div class="qwa-result">
+    
+        <div class="qwa-results__complete">You've completed the Quiz!</div>
+
+        <div class="qwa-results__score"></div>
+
+        <div class="qwa-results__buttons">
+            <button class="qwa-results__button qwa-results__button--restart">Restart Quiz</button>
+            <button class="qwa-results__button qwa-results__button--quit">Quit Quiz</button>
+        </div>
+    </div>
+
+     <script src="js/questions.js"></script>
+     <script src="js/script.js"></script> 
+
+</body>
+
+</html>
+</html>
