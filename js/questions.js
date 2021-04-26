@@ -303,20 +303,95 @@ let questions = {
     }
   ],
  
-
-
-
-  art: [{
+  animals: [{
       difficulty: 1,
-      question: "In which art anri is best?",
-      answer: "All",
-      options: ["All", "Ricky Martin", "Bruno Mars", "Joaquin Phoenix"],
+      question: "What is the fastest  land animal?",
+      answer: "Cheetah",
+      options: ["Lion", "Cheetah", "Thomson&Gazelle", "Pronghorn Antelope"],
+    },
+    {
+      difficulty: 1,
+      question: "Hippocampus is the Latin name for which marine creature?",
+      answer: "Seahorse",
+      options: ["Dolphin", "Whale", "Seahorse", "Octopus"],
+    },
+    {
+      difficulty: 1,
+      question: "How many legs do butterflies have?",
+      answer: "6",
+      options: ["2", "6", "4", "0"],
+    },
+    {
+      difficulty: 1,
+      question: "What do you call a baby bat?",
+      answer: "Pup",
+      options: ["Cub", "Chick", "Kid", "Pup"],
+    },
+    {
+      difficulty: 1,
+      question: "What is Grumpy Cat's real name?",
+      answer: "Tardar Sauce",
+      options: ["Tardar Sauce", "Sauce", "Minnie", "Broccoli"],
     },
     {
       difficulty: 2,
-      question: "In which art anri is best?",
-      answer: "All",
-      options: ["All", "Ricky Martin", "Bruno Mars", "Joaquin Phoenix"],
+      question: "What is the collective noun for a group of crows?",
+      answer: "Murder",
+      options: ["Gaggle", "Herd", "Murder", "Pack"],
+    },
+    {
+      difficulty: 2,
+      question: "What colour is the female blackbird?",
+      answer: "Brown",
+      options: ["Brown", "Black", "White", "Yellow"],
+    },
+    {
+      difficulty: 2,
+      question: "What is the name of a rabbit's abode?",
+      answer: "Burrow",
+      options: ["Nest", "Burrow", "Den", "Dray"],
+    },
+    {
+      difficulty: 2,
+      question: "Which species of Brown Bear is not extinct?",
+      answer: "Syrian Brown Bear",
+      options: ["Syrian Brown Bear", "California Grizzly Bear", "Atlas Bear", "Mexican Grizzly Bear"],
+    },
+    {
+      difficulty: 2,
+      question: "What scientific suborder does the family Hyaenidae belong to?",
+      answer: "Feliformia",
+      options: ["Haplorhini", "Caniformia", "Ciconiiformes", "Feliformia"],
+    },
+    {
+      difficulty: 3,
+      question: "What is the scientific name of the cheetah?",
+      answer: "Acinonyx jubatus",
+      options: ["Acinonyx jubatus", "Panthera onca", "Lynx rufus", "Felis catus"],
+    },
+    {
+      difficulty: 3,
+      question: "What is the scientific name of the Budgerigar?",
+      answer: "Melopsittacus undulatus",
+      options: ["Nymphicus hollandicus", "Pyrrhura molinae", "Melopsittacus undulatus", "Ara macao"],
+    },
+    {
+      difficulty: 3,
+      question: "Which of these animals is NOT a lizard?",
+      answer: "Tuatara",
+      options: ["Tuatara", "Komodo Dragon", "Gila Monster", "Green Iguana"],
+    },
+    {
+      difficulty: 3,
+      question: "Unlike on most salamanders, this part of a newt is flat?",
+      answer: "Tail",
+      options: ["Head", "Tail", "Teeth", "Feet"],
+    },
+    {
+      difficulty: 3,
+      question: "What is the collective noun for vultures?",
+      answer: "Wake",
+      options: ["Ambush", "Building", "Gaze", "Wake"],
     },
   ],
 };
