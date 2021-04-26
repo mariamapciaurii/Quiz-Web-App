@@ -2,8 +2,7 @@
 // category Celebrities
 //difficulty easy
 let questions = {
-  celeb: [
-    {
+  celeb: [{
       difficulty: 1,
       question: "By what name is Carlos Estevez better known?",
       answer: "Charlie Sheen",
@@ -68,7 +67,7 @@ let questions = {
         "Jack",
         "Justin",
         "James"
-     ],
+      ],
     },
     {
       difficulty: 2,
@@ -79,7 +78,7 @@ let questions = {
         "Stomach Cancer",
         "HIV",
         "Brain Hemorrhage"
-     ],
+      ],
     },
     {
       difficulty: 2,
@@ -90,7 +89,7 @@ let questions = {
         "2035",
         "2040",
         "2045"
-     ],
+      ],
     },
     {
       difficulty: 2,
@@ -101,7 +100,7 @@ let questions = {
         "Los Angeles, California",
         "Atlanta, Georgia",
         "Detroit, Michigan"
-     ],
+      ],
     },
 
     {
@@ -113,7 +112,7 @@ let questions = {
         "Tino Martinez",
         "Babe Ruth",
         "Mason Williams"
-     ],
+      ],
     },
     {
       difficulty: 3,
@@ -124,7 +123,7 @@ let questions = {
         "Pete Tong",
         "Ryan Seacrest",
         "Howard Stern"
-     ],
+      ],
     },
     {
       difficulty: 3,
@@ -135,7 +134,7 @@ let questions = {
         "Jet",
         "Nightshade",
         "Falcon"
-     ],
+      ],
     },
     {
       difficulty: 3,
@@ -146,7 +145,7 @@ let questions = {
         "Jeopardy",
         "Survivor",
         "The Bachelor"
-     ],
+      ],
     },
     {
       difficulty: 3,
@@ -158,19 +157,156 @@ let questions = {
   sport: [
     {
       difficulty: 1,
-      question: "In which sport anri is best?",
-      answer: "All",
-      options: ["All", "Ricky Martin", "Bruno Mars", "Joaquin Phoenix"],
+      question: "Which country will host the 2020 Summer Olympics?",
+      answer: "Japan",
+      options: ["Japan",
+        "China",
+        "Australia",
+        "Germany"
+      ],
+    },
+    {
+      difficulty: 1,
+      question: "Which driver has been the Formula 1 world champion for a record 7 times?",
+      answer: "Michael Schumacher",
+      options: ["Ayrton Senna",
+        "Michael Schumacher",
+        "Fernando Alonso",
+        "Jim Clark"
+      ],
+    },
+    {
+      difficulty: 1,
+      question: "What was the final score of the Germany vs. Brazil 2014 FIFA World Cup match?",
+      answer: "7 - 1",
+      options: ["7 - 1",
+        "0 - 1",
+        "3 - 4",
+        "16 - 0"
+      ],
+    },
+    {
+      difficulty: 1,
+      question: "Which team won 2014 FIFA World Cup in Brazil?",
+      answer: "Germany",
+      options: ["Argentina",
+        "Brazil",
+        "Germany",
+        "Australia"
+      ],
+    },
+    {
+      difficulty: 1,
+      question: "This Canadian television sportscaster is known for his Hockey Night in Canada role, a commentary show during hockey games",
+      answer: "Don Cherry",
+      options: ["ADon McKellar",
+        "Don Taylor ",
+        "Donald Sutherland",
+        "Don Cherry"
+      ],
     },
     {
       difficulty: 2,
-      question: "In which sport anri is best?",
-      answer: "All",
-      options: ["All", "Ricky Martin", "Bruno Mars", "Joaquin Phoenix"],
+      question: "What is the most common type of pitch thrown by pitchers in baseball?",
+      answer: "Fastball",
+      options: ["Fastball",
+        "Slowball",
+        "Screwball",
+        "Palmball"
+      ],
     },
-  ],
-  art: [
     {
+      difficulty: 2,
+      question: "Who is often called the Maestro in the men tennis circuit?",
+      answer: "Roger Federer",
+      options: ["Boris Becker",
+        "Bill Tilden",
+        "Roger Federer",
+        "Pete Sampras"
+      ],
+    },
+    {
+      difficulty: 2,
+      question: "Which country will host the 2022 FIFA World Cup?",
+      answer: "Qatar",
+      options: ["Qatar",
+        "USA",
+        "Japan",
+        "Switzerland"
+      ],
+    },
+    {
+      difficulty: 2,
+      question: "Who won the UEFA Champions League in 2016?",
+      answer: "Real Madrid C.F.",
+      options: ["FC Bayern Munich",
+        "Atletico Madrid",
+        "Manchester City F.C.",
+        "Real Madrid C.F."
+      ],
+    },
+    {
+      difficulty: 2,
+      question: "Which Italian footballer told Neuer where putting his shot and dragging it wide, during the match Italy-Germany, UEFA EURO 2016?",
+      answer: "Pelle",
+      options: ["Pelle",
+        "Insigne",
+        "Barzagli",
+        "Giaccherini"
+      ],
+    },
+    {
+      difficulty: 3,
+      question: "What is the full name of the footballer &quot;Cristiano Ronaldo",
+      answer: "Cristiano Ronaldo dos Santos Aveiro",
+      options: ["Cristiano Ronaldo los Santos Diego",
+        "Cristiano Armando Diego Ronaldo",
+        "Cristiano Luis Armando Ronaldo",
+        "Cristiano Ronaldo dos Santos Aveiro"
+      ],
+    },
+    {
+      difficulty: 3,
+      question: "Which player kung-fu kicked a Crystal Palace fan in January 1995?",
+      answer: "Eric Cantona",
+      options: ["Eric Cantona",
+      "David Seamen",
+      "Ashley Cole",
+      "Mark Hughes"
+      ],
+    },
+    {
+      difficulty: 3,
+      question: "The Mazda 787B won the 24 Hours of Le Mans in what year?",
+      answer: "1991",
+      options: ["1995",
+        "1991",
+        "2000",
+        "1197"
+      ],
+    },
+    {
+      difficulty: 3,
+      question: "In Canadian football, scoring a rouge is worth how many points?",
+      answer: "1",
+      options: ["2",
+        "1",
+        "3",
+        "4"
+      ],
+    },
+      {
+      difficulty: 3,
+      question: "Who did Steven Gerrard win the Champions League with?",
+      answer: "Liverpool",
+      options: ["Liverpool", "Real Madrid", "Chelsea", "Man City"],
+    }
+  ],
+ 
+
+
+
+  art: [{
       difficulty: 1,
       question: "In which art anri is best?",
       answer: "All",
