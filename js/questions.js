@@ -55,9 +55,98 @@ let questions = {
     },
     {
       difficulty: 2,
-      question: " What was the cause of death for Freddie Mercury?",
+      question: "What is Doug Walker's YouTube name? ",
+      answer: "The Nostalgia Critic",
+      options: ["The Angry Video Game Nerd", "AngryJoeShow", "The Nostalgia Critic", "The Cinema Snob"],
+    },
+    {
+      difficulty: 2,
+      question: " Paul McCartney has always used his middle name. What is his real first name?",
+      answer: "James",
+      options: [
+        "John",
+        "Jack",
+        "Justin",
+        "James"
+     ],
+    },
+    {
+      difficulty: 2,
+      question: "What was the cause of death for Freddie Mercury?",
       answer: "Pneumonia",
-      options: ["Pneumonia", "Stomach Cancer", "HIV", "TEST"],
+      options: [
+        "Pneumonia",
+        "Stomach Cancer",
+        "HIV",
+        "Brain Hemorrhage"
+     ],
+    },
+    {
+      difficulty: 2,
+      question: "If he was still alive, in what year would Elvis Presley celebrate his 100th birthday?",
+      answer: "2035",
+      options: [
+        "2030",
+        "2035",
+        "2040",
+        "2045"
+     ],
+    },
+    {
+      difficulty: 2,
+      question: "Where was Kanye West born?",
+      answer: "Atlanta, Georgia",
+      options: [
+        "Chicago, Illinois",
+        "Los Angeles, California",
+        "Atlanta, Georgia",
+        "Detroit, Michigan"
+     ],
+    },
+
+    {
+      difficulty: 3,
+      question: "Which famous New York Yankees outfielder did Marilyn Monroe marry?",
+      answer: "Joe DiMaggio",
+      options: [
+        "Joe DiMaggio",
+        "Tino Martinez",
+        "Babe Ruth",
+        "Mason Williams"
+     ],
+    },
+    {
+      difficulty: 3,
+      question: "Which radio personality calls himself &quot;The King of All Media&quot;?",
+      answer: "Howard Stern",
+      options: [
+        "Rush Limbaugh",
+        "Pete Tong",
+        "Ryan Seacrest",
+        "Howard Stern"
+     ],
+    },
+    {
+      difficulty: 3,
+      question: "Nikki Diamond portrayed which Gladiator in the 1992 TV show Gladiators?",
+      answer: "Scorpio",
+      options: [
+        "Scorpio",
+        "Jet",
+        "Nightshade",
+        "Falcon"
+     ],
+    },
+    {
+      difficulty: 3,
+      question: "Which television show has Dan Gheesling been on?",
+      answer: "Big Brother",
+      options: [
+        "Big Brother",
+        "Jeopardy",
+        "Survivor",
+        "The Bachelor"
+     ],
     },
     {
       difficulty: 3,
